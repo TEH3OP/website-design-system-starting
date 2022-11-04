@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+  }
+
+td, th{
+    width: 140px;
+    height: 40px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+tr {
+    /* border: 2px solid black; */
+    border: 1px solid gray;
+}
+
+td div:first-child{
+    width: 25px;
+    height: 25px;
+}
+
+tr th:first-child, tr td:first-child{
+    width: 70px;
+}
+
+
+
+
+
